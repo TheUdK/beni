@@ -6,23 +6,23 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Marc Hodler
-title: Senior Network System Administrator
-email: me@marchodler.ch
+name: Bernhard Hodler
+title: Corporate Management, Consulting, Financial Investments
+email: bernhard@hodler-consulting.com
 #website:
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
-twitter_username: udkcsgo
-github_username:  theudk
+#twitter_username: udkcsgo
+#github_username:  theudk
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: theudkch
-#linkedin_username: jameswgrant
+#instagram_username: theudkch
+linkedin_username: bernhard-hodler
 # xing_username: jekyll
 # pinterest_username: jekyll
 #youtube_username: globalmtb
@@ -46,74 +46,144 @@ instagram_username: theudkch
 
 # About Section
 # about_title: About Me
-about_profile_image: images/udk.png
+about_profile_image: images/img01.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  -	**Senior Manager** with strong analytical and communication skills
+  - Multiyear **experience at Executive Board, as CEO and at Board of Director** level. I have successfully shaped and implemented strategies for large organizations
+  - **Over 30 years of experience in the financial services industry** internationally in Wealth and Asset Management, Private and Investment Banking
+  - Bachelor's degree in Business Administration and **MBA from Wharton University**
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: About My Services # Title for the section
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Corporate Management and Governance:**
+
+      I take over mandates as member of the Board of Directors, member of Advisory Boards or Foundation Boards. 
+      
+      **Consulting:**
+
+      I provide consulting services mainly in the financial services industry (Wealth and Asset Management, Private and Investment Banking). 
+      
+      **Financial Investments and support for start-up companies:**
+
+      I am an active investor in and advisor of start-up companies. The financial investments can be coupled with a mandate as Board of Director or advisor.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      #Ent
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Entrepreneur
+        link: hodler-consulting.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Consultant, Multiple Board Member, Investor
+        caption: 2020 - Present
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
+            Self-employed entrepreneur mainly consulting in the financial services industry and active as an investor and BoD in the start-up space
+      #JB
+      - layout: left
+        title: Julius Baer Group, Zurich
+        link: juliusbaer.com
+        # link_text: boringcompany.com
+        sub_title: Member of the Executive Board, CEO
+        caption: 1998 - 2020
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Various functions (CRO, Head Credit, Head Corporate Services, COO, CEO). Managed over 6000 employees as CEO and shaped and implemented strategy
+      #CS
+      - layout: left
+        title: Credit Suisse, London and Zurich
+        link: credit-suisse.com
+        # link_text: boringcompany.com
+        sub_title: Managing Director, Investment Banking
+        caption: 1994 - 1998
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Worked 2 years in London and 2 years in Zurich in the investment banking division
+      #SBC
+      - layout: left
+        title: Swiss Bank Corporation, Tokyo and Zurich
+        link: "https://en.wikipedia.org/wiki/Swiss_Bank_Corporation"
+        link_text: Wikipedia Entry
+        sub_title: Executive Director, Investment Banking
+        caption: 1990 - 1994
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Worked 2 years in Tokyo and 2 years in Zurich in the investment banking division
+      #CSFB
+      - layout: left
+        title: Credit Suisse First Boston, Zurich
+        link: "https://en.wikipedia.org/wiki/Credit_Suisse_First_Boston"
+        link_text: Wikipedia Entry
+        sub_title: Director, Business Audit
+        caption: 1987 - 1990
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Senior Business Auditor in the international division with direct overall audit responsibility for CSFB Germany and CSFB Netherland
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      #Wrtn
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Wharton University, Philadelphia
+        caption: 2004
+        sub_title: Advanced Management Program (AMP)
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          **International Executive MBA** Program focusing on international management and strategy shaping and implementation
+      #SFI
+      - layout: left
+        title: Swiss Finance Institute, Zurich
+        caption: 1999 - 2000
+        sub_title: Advanced Executive Program (AEP)
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          **Senior Manager Certification in Banking**. Modules: Strategic Bank Management, Corporate Development, Retail-, Private- and Commercial Banking
+      #GARP
+      - layout: left
+        title: Global Association of Risk Professionals
+        caption: 1996 - 1997
+        sub_title: Financial Risk Manager (FRM Garp)
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Leading Certification for **International Risk Managers**
+      #UASB
+      - layout: left
+        title: University of Applied Sciences, Bern
+        caption: 1984 - 1987
+        sub_title: Bachelor of Business Administration
+        #quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Specializing in **Banking & Finance and Controlling**
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in Management, Leadership and the Financial Services Industry some of my other interests and hobbies are:
+      - Traveling
+      - Reading
+      - Classical Music
+      - Tennis and Padel-Tennis
+      - Biking
+      - Skiing
 
-      Look at this cool image  
- #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+      ![Biking](/images/img03.jpg "Biking"){:height="25%" width="25%"}
+      ![Skiing](/images/img02.jpg "Skiing"){:height="25%" width="25%"}
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
